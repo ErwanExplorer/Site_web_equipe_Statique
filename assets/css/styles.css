@@ -1,0 +1,99 @@
+body
+{
+   background-color:#306090; /* Définit la couleur d’arrière-plan de la page (bleu foncé) */
+   color:#ffffff; /* Définit la couleur du texte en blanc */
+   font-family:"Trebuchet MS",Verdana,Geneva,Arial,Helvetica,sans-serif; /* Définit la police du texte (avec plusieurs polices de secours) */
+   font-size:small; /* Définit la taille du texte en "petit" */
+   margin:2em 1%; /* Ajoute une marge extérieure : 2em en haut/bas et 1% à gauche/droite */
+   padding:0; /* Supprime les espacements internes (padding) du body */
+}
+
+#page
+{
+   color:#000000; /* Définit la couleur du texte en noir dans la zone #page */
+   background-color:#ffffff; /* Définit la couleur de fond de #page en blanc */
+   border:3px solid #000000; /* Ajoute une bordure noire pleine de 3px autour de #page */
+   min-height:55em; /* Définit une hauteur minimale de 55em pour #page */
+   height:55em; /* Définit une hauteur fixe de 55em pour #page */
+}
+
+html>body #page
+{
+   height:auto; /* Permet d’ajuster automatiquement la hauteur de #page au contenu (corrige certains navigateurs) */
+}
+
+header 
+{
+	margin: 2em 3% 1% 3%; /* Ajoute une marge extérieure : 2em en haut, 3% à droite, 1% en bas et 3% à gauche */
+	padding: 0.05em 0 0.05em 0; /* Ajoute un espacement intérieur (padding) : 0.5em en haut et 0.05em à gauche */
+	font-size: 200%; /* Agrandit la taille du texte à 200% de la taille de base */
+	background-color: #ffd000; /* Définit la couleur de fond de l’en-tête en jaune */
+	border-radius: 25px; /* Arrondit les coins de l’en-tête avec un rayon de 25px */
+}
+
+header h1
+{
+	font-family: "Comic Sans MS", Arial, Helvetica, sans-serif; /* Définit la police du titre principal */
+	text-align: center; /* Centre le texte du titre horizontalement */
+}
+
+header .logo
+{
+	float: left; /* Fait flotter l’image/logo à gauche */
+	margin-top: 20px; /* Ajoute un espace de 20px en haut du logo */
+	margin-bottom: 5px; /* Ajoute un espace de 5px en bas du logo */
+	margin-left: 1%; /* Ajoute un espace de 1% à gauche du logo */
+	display: block; /* Définit l’élément comme un bloc (block) pour contrôler ses marges */
+}
+
+nav {
+    left: 5%;              /* Décale le bloc <nav> vers la droite en laissant 5% de marge depuis le bord gauche de la page */
+    position: absolute;     /* Sert à placer l’élément en position absolue par rapport à son parent */
+    width: 15%;            /* Donne une largeur de 15% de la largeur totale de la fenêtre ou du parent */
+    overflow: hidden;      /* Cache le contenu qui dépasse du bloc <nav> (utile pour éviter les barres de défilement ou masquer un débordement) */
+}
+
+article {
+    margin-left: 22%;   /* décale l’article vers la droite pour laisser de la place au menu nav (15% du menu + marge + petit espace) */
+	background-color: #f5f8fc;  /* couleur de fond de l’article en gris très clair bleuté */
+	border: 1px solid #6090c0;  /* ajoute une bordure fine (1px) bleue autour de l’article */
+	line-height: 150%;  /* augmente l’espace vertical entre les lignes (1,5 fois la taille de la police) pour une meilleure lisibilité */
+	color: #000000;  /* couleur du texte en noir */
+	padding: 10px;  /* espace intérieur de 10px entre le contenu de l’article et sa bordure */
+}	
+
+article h2 {
+	border-color: #f09000;  /* définit la couleur de la bordure en orange */
+	border-style: solid;  /* définit le style de la bordure en trait plein */
+	border-width: 0 0 3px 0;  /* ajoute uniquement une bordure en bas (3px d’épaisseur), aucune sur les autres côtés */
+	font-size: medium;  /* définit une taille de texte moyenne pour le titre h2 */
+	font-weight: bold;  /* met le titre en gras */
+	margin: 0;  /* supprime les marges extérieures du h2 */
+	padding-left: 0em;  /* enlève tout espace à gauche du texte (pas de retrait) */
+	text-transform: uppercase;  /* met le texte du titre en majuscules automatiquement */
+	color: #f09000;  /* couleur du texte du h2 en orange */
+}
+
+
+nav h3{
+	border-color: #f09000;
+	border-style: solid;
+	border-width: 0 0 3px 0;
+	font-size: medium;
+	font-weight: bold;
+	margin: 0;
+	padding-left: 0em;
+	text-transform: uppercase;
+}
+
+nav ul {
+	margin-top: 0.5em;
+}
+
+nav li{
+	list-style: none;
+}
+
+nav a{
+	display: block;
+}
