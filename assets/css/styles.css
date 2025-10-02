@@ -1,6 +1,6 @@
 body
 {
-   background-color:#306090; /* Définit la couleur d’arrière-plan de la page (bleu foncé) */
+   background-color:#34495e; /* Définit la couleur d’arrière-plan de la page (bleu foncé) */
    color:#ffffff; /* Définit la couleur du texte en blanc */
    font-family:"Trebuchet MS",Verdana,Geneva,Arial,Helvetica,sans-serif; /* Définit la police du texte (avec plusieurs polices de secours) */
    font-size:small; /* Définit la taille du texte en "petit" */
@@ -74,6 +74,13 @@ article h2 {
 	color: #f09000;  /* couleur du texte du h2 en orange */
 }
 
+article img {
+    display: block; /* Définit l’image comme un bloc (block) pour contrôler ses marges */
+    margin: 0 auto 1em auto; /* Centre l’image horizontalement et ajoute une marge de 1em en bas */
+    max-width: 100%; /* Assure que l’image ne dépasse pas la largeur de son conteneur */
+    height: auto; /* Ajuste automatiquement la hauteur pour conserver les proportions */
+}
+
 
 nav h3{
 	border-color: #f09000;
@@ -96,4 +103,19 @@ nav li{
 
 nav a{
 	display: block;
+}
+
+footer {
+    clear: both; /* Assure que le footer ne flotte pas à côté d’autres éléments flottants */
+    text-align: center; /* Centre le texte à l’intérieur du footer */
+    padding: 1em 0; /* Ajoute un espacement intérieur (padding) de 1em en haut et en bas */
+    background-color: #306090; /* Définit la couleur de fond du footer (bleu foncé) */
+    color: #ffffff; /* Définit la couleur du texte en blanc */
+    font-size: small; /* Définit une taille de texte petite pour le footer */
+    margin-top: 1em; /* Ajoute une marge extérieure de 1em au-dessus du footer */
+    }
+
+footer a {
+    color: #ffffff; /* Définit la couleur des liens en blanc */ 
+    text-decoration: underline; /* Souligne les liens pour les différencier du texte normal */
 }
