@@ -1,8 +1,9 @@
+
 <!DOCTYPE html>
 <html lang="fr">
    <head>
        <meta charset="utf-8">
-	   <link  href="assets/css/styleserwan.css" rel="stylesheet">
+	   <link  href="ESA_css.css" rel="stylesheet">
 	   <title>Site Web statique : L'Astronomie</title>
    </head>
 
@@ -10,22 +11,21 @@
 		<div id="page">
 
 		<header>
-			
-			<div class="logo">
-				<img src="assets/images/logo.png" width="100" alt="Logo">
-			</div>
-		
+        <!-- Logo cliquable : retourne vers la page d’accueil -->
+        <a href="ESA_html.html">
+            <img src="assets/images/logo.png" width="100" alt="logo" class="logo">
+        </a>
 			<h1>L'astronomie</h1>
 		</header>
 
 		<nav>
-			<h2>Le menu</h2>
+			<h2>Navigation</h2>
 
 			<div class="container">
 				<h3>Les planètes et le Soleil</h3>
 
 				<ul>
-					<li><a href="sun.html">Le soleil</a></li>
+					<li><a href="ESA_sun.html">Le soleil</a></li>
 					<li><a href="systeme_solaire.html">Le système solaire</a></li>
 				</ul>
 			</div>
@@ -56,13 +56,14 @@
 			</div>
 		</nav>
 
-		<article>
-           	<h2>Le spatial et l'astronomie</h2>
-			<p>Ce site a pour objectif de vous présenter les dernières actualités en matière d'astronomie et d'exploration spatiale.</p>
-            <p>Vous y trouverez des informations sur les missions spatiales en cours, les découvertes récentes, ainsi que des ressources pour en apprendre davantage sur l'univers qui nous entoure.</p>
-            <img src="assets/images/astronomie.jpg" width="600" alt="Astronomie">
-            <button onclick="window.location.href='systeme_solaire.html'">En savoir plus</button>
-		</article>
+		 <article>
+        <h2>Le Soleil</h2>
+        <p><strong>Description :</strong> Etoile</p>
+        <p><strong>Taille(diamètre) :</strong> 1,4 millions de Km</p>
+        <p><strong>Masse :</strong> 2 * 10^30</p>
+		<p><strong>Température  :</strong> environ 5 500°C</p>
+        <p><strong>Source :</strong> <a href="https://www.asc-csa.gc.ca/fra/astronomie/systeme-solaire/soleil.asp" target="_blank">Lien vers le site</a></p>
+    </article>
 	
 		</div>
 
