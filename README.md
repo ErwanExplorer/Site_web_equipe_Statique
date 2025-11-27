@@ -131,4 +131,4 @@ Pour toute question concernant ce projet, vous pouvez contacter l'équipe de dé
 
 ---
 
-*Dernière mise à jour : Octobre 2025*
+*Dernière mise à jour : Novembre 2025*
