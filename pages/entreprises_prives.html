@@ -1,77 +1,99 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fr">
-   <head>
-       <meta charset="utf-8">
-	   <link  href="../assets/css/styleserwan.css" rel="stylesheet">
-	   <title>Site Web statique : L'Astronomie</title>
-   </head>
-
-	<body>
-		<div id="page">
-
-		<header>
-        <!-- Logo cliquable : retourne vers la page d’accueil -->
-        <a href="../index.html">
-            <img src="../assets/images/logo.png" width="100" alt="logo" class="logo">
-        </a>
-			<h1>L'astronomie</h1>
-		</header>
-
-		<nav>
-			<h2>Navigation</h2>
-
-			<div class="container">
-				<h3>Les planètes et le Soleil</h3>
-
-				<ul>
-					<li><a href="sun.html">Le soleil</a></li>
-					<li><a href="systeme_solaire.html">Le système solaire</a></li>
-				</ul>
-			</div>
-
-			<div class="container">
-				<h3>Les missions spatiales</h3>
-
-				<ul>
-					<li><a href="agences_spatiales.html">Les agences spatiales </a></li>
-					<li><a href="entreprises_prives.html">Les entreprises privés</a></li>
-				</ul>
-			</div>
-
-			<div class="container">
-				<h3>Les galaxies</h3>
-
-				<ul>
-					<li><a href="galaxies.html">Les galaxies</a></li>
-					
-				</ul>
-			</div>
-            <div class="container">
-				<h3>En plus</h3>
-
-				<ul>
-					<li><a href="telescopes.html">Moyens d'observations</a></li>
-				</ul>
-			</div>
-		</nav>
-
-		 <article>
-        <h2>Les entreprise privés</h2>
-        <p><strong>Description :</strong>Une entreprise privée est une société commerciale (et non un organisme public ou une agence d’État) qui développe des activités liées à l’espace et à l’observation de l’Univers dans un but économique.</p>
-        <p><strong>Type :</strong> Il existe plusieurs entreprises privées qui ont diffèrent secteurs d'activité</p>
-        <p><strong>Les principaux types :</strong> </p>
-		<li><a href="entreprise_US.html">ENTREPRISES SPATIALES AMÉRICAINES</a></li>
-		<li><a href="entreprises_CH.html">ENTREPRISES CHINOISES</li>
-		<li><a href="entreprises_UE.html">ENTREPRISES EUROPÉENNES</li>
-		<li><a href="entreprises_SPE.html">ENTREPRISES SPÉCIALISÉES</li>
-		<li><a href="entreprises_STA_COM.html">ENTREPRISES DE SATELLITES & COMMUNICATIONS</li>
-      
-    </article>
-		</div>
-        <footer>
-            <p>Réalisé par Erwan Sagnardon et Thomas SAUVEUR &copy; 2026</p>
-            <p>Sources : <a href="https://fr.wikipedia.org/wiki/Astronomie">Wikipédia</a>, <a href="https://www.nasa.gov/">NASA</a>, <a href="https://www.esa.int/">ESA</a></p>
-        </footer>
-
-	</body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entreprises Privees | ESA Astronomie</title>
+    <link rel="stylesheet" href="../assets/css/styleserwan.css">
+    <link rel="icon" href="../assets/images/logo.png" type="image/png">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../assets/images/logo.png" alt="Logo ESA Astronomie">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="systeme_solaire.html">Systeme Solaire</a></li>
+                <li><a href="sun.html">Le Soleil</a></li>
+                <li><a href="galaxies.html">Galaxies</a></li>
+                <li><a href="exoplanets.html">Exoplanetes</a></li>
+                <li><a href="agences_spatiales.html">Agences Spatiales</a></li>
+                <li><a href="entreprises_prives.html" class="active">Entreprises Privees</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Entreprises Privees Spatiales</h1>
+            <p>Le secteur prive a la conquete de l espace</p>
+        </div>
+    </section>
+    <main class="content">
+        <section class="section">
+            <h2>Par region</h2>
+            <ul>
+                <li><a href="entreprise_US.html">Entreprises americaines (SpaceX, Blue Origin...)</a></li>
+                <li><a href="entreprises_UE.html">Entreprises europeennes (ArianeGroup...)</a></li>
+                <li><a href="entreprises_CH.html">Entreprises chinoises</a></li>
+                <li><a href="entreprises_SPE.html">Entreprises specialisees</a></li>
+                <li><a href="entreprises_STA_COM.html">Stations et communications spatiales</a></li>
+            </ul>
+        </section>
+        <section class="section">
+            <h2>Principales entreprises</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Entreprise</th>
+                        <th>Pays</th>
+                        <th>Fondateur</th>
+                        <th>Specialite</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>SpaceX</strong></td>
+                        <td>USA</td>
+                        <td>Elon Musk</td>
+                        <td>Lanceurs reutilisables, Starship</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Blue Origin</strong></td>
+                        <td>USA</td>
+                        <td>Jeff Bezos</td>
+                        <td>Tourisme spatial, New Glenn</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Virgin Galactic</strong></td>
+                        <td>USA</td>
+                        <td>Richard Branson</td>
+                        <td>Tourisme suborbital</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Rocket Lab</strong></td>
+                        <td>USA/NZ</td>
+                        <td>Peter Beck</td>
+                        <td>Petits lanceurs</td>
+                    </tr>
+                    <tr>
+                        <td><strong>ArianeGroup</strong></td>
+                        <td>Europe</td>
+                        <td>-</td>
+                        <td>Ariane 6</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>2026 ESA Astronomie - Erwan Sagnardon et Thomas SAUVEUR</p>
+            <p>Sources : <a href="https://fr.wikipedia.org/wiki/Astronomie">Wikipedia</a>, <a href="https://www.nasa.gov/">NASA</a>, <a href="https://www.esa.int/">ESA</a></p>
+        </div>
+    </footer>
+</body>
 </html>

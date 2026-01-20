@@ -11,7 +11,7 @@ Ce projet est un site web statique développé dans le cadre d'un TP, consacré 
 - **Erwan Sagnardon**
 - **Thomas SAUVEUR**
 
-*Projet réalisé en 2025*
+*Projet réalisé en 2026*
 
 ## 🎯 Objectifs du Site
 

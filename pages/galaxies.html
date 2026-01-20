@@ -1,76 +1,59 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fr">
-   <head>
-       <meta charset="utf-8">
-	   <link  href="../assets/css/styleserwan.css" rel="stylesheet">
-	   <title>Site Web statique : L'Astronomie</title>
-   </head>
-
-	<body>
-		<div id="page">
-
-		<header>
-        <!-- Logo cliquable : retourne vers la page d’accueil -->
-        <a href="../index.html">
-            <img src="../assets/images/logo.png" width="100" alt="logo" class="logo">
-        </a>
-			<h1>L'astronomie</h1>
-		</header>
-
-		<nav>
-			<h2>Navigation</h2>
-
-			<div class="container">
-				<h3>Les planètes et le Soleil</h3>
-
-				<ul>
-					<li><a href="sun.html">Le soleil</a></li>
-					<li><a href="systeme_solaire.html">Le système solaire</a></li>
-				</ul>
-			</div>
-
-			<div class="container">
-				<h3>Les missions spatiales</h3>
-
-				<ul>
-					<li><a href="agences_spatiales.html">Les agences spatiales </a></li>
-					<li><a href="entreprises_prives.html">Les entreprises privés</a></li>
-				</ul>
-			</div>
-
-			<div class="container">
-				<h3>Les galaxies</h3>
-
-				<ul>
-					<li><a href="galaxies.html">Les galaxies</a></li>
-					
-				</ul>
-			</div>
-            <div class="container">
-				<h3>En plus</h3>
-
-				<ul>
-					<li><a href="telescopes.html">Moyens d'observations</a></li>
-				</ul>
-			</div>
-		</nav>
-
-		 <article>
-        <h2>Les galaxies</h2>
-        <p><strong>Description :</strong> Une galaxie est un immense ensemble d’étoiles, de gaz, de poussières et de matière noire, maintenu par la gravitation. C’est une « ville d’étoiles » dans l’Univers.</p>
-        <p><strong>Taille :</strong> Elles contiennent de millions à plusieurs milliers de milliards d’étoiles.
-Notre galaxie, la Voie lactée, en contient environ 200 à 400 milliards.</p>
-        <p><strong>Les principaux types :</strong> Spirales (comme la Voie lactée)</p>
-		<p>Elliptiques</p>
-		<p>Irrégulières</p>
-		<p><strong>Leur formation  :</strong> Elles se sont formées après le Big Bang, lorsque les premières matières se sont regroupées sous l’effet de la gravité.</p>
-        <p><strong>Source :</strong> <a href="https://fr.wikipedia.org/wiki/Galaxie" target="_blank">Lien vers le site</a></p>
-    </article>
-		</div>
-        <footer>
-            <p>Réalisé par Erwan Sagnardon et Thomas SAUVEUR &copy; 2026</p>
-            <p>Sources : <a href="https://fr.wikipedia.org/wiki/Astronomie">Wikipédia</a>, <a href="https://www.nasa.gov/">NASA</a>, <a href="https://www.esa.int/">ESA</a></p>
-        </footer>
-
-	</body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les Galaxies | ESA Astronomie</title>
+    <link rel="stylesheet" href="../assets/css/styleserwan.css">
+    <link rel="icon" href="../assets/images/logo.png" type="image/png">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../assets/images/logo.png" alt="Logo ESA Astronomie">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="systeme_solaire.html">Systeme Solaire</a></li>
+                <li><a href="sun.html">Le Soleil</a></li>
+                <li><a href="galaxies.html" class="active">Galaxies</a></li>
+                <li><a href="exoplanets.html">Exoplanetes</a></li>
+                <li><a href="agences_spatiales.html">Agences Spatiales</a></li>
+                <li><a href="entreprises_prives.html">Entreprises Privees</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Les Galaxies</h1>
+            <p>Immenses ensembles d etoiles dans l univers</p>
+        </div>
+    </section>
+    <main class="content">
+        <section class="section">
+            <h2>Qu est-ce qu une galaxie ?</h2>
+            <p><strong>Description :</strong> Une galaxie est un immense ensemble d etoiles, de gaz, de poussieres et de matiere noire, maintenu par la gravitation. C est une ville d etoiles dans l Univers.</p>
+            <p><strong>Taille :</strong> Elles contiennent de millions a plusieurs milliers de milliards d etoiles. Notre galaxie, la Voie lactee, en contient environ 200 a 400 milliards.</p>
+        </section>
+        <section class="section">
+            <h2>Les principaux types de galaxies</h2>
+            <ul>
+                <li><strong>Spirales</strong> - comme la Voie lactee</li>
+                <li><strong>Elliptiques</strong> - forme ovale</li>
+                <li><strong>Irregulieres</strong> - sans forme definie</li>
+            </ul>
+            <p><strong>Formation :</strong> Elles se sont formees apres le Big Bang, lorsque les premieres matieres se sont regroupees sous l effet de la gravite.</p>
+            <p><strong>Source :</strong> <a href="https://fr.wikipedia.org/wiki/Galaxie" target="_blank">Wikipedia</a></p>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>2026 ESA Astronomie - Erwan Sagnardon et Thomas SAUVEUR</p>
+            <p>Sources : <a href="https://fr.wikipedia.org/wiki/Astronomie">Wikipedia</a>, <a href="https://www.nasa.gov/">NASA</a>, <a href="https://www.esa.int/">ESA</a></p>
+        </div>
+    </footer>
+</body>
 </html>
