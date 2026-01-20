@@ -1,70 +1,95 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fr">
-   <head>
-       <meta charset="utf-8">
-	   <link  href="../assets/css/styleserwan.css" rel="stylesheet">
-	   <title>Le Soleil - Site Web statique : L'Astronomie</title>
-   </head>
-
-	<body>
-		<div id="page">
-
-		<header>
-			
-			<div class="logo">
-				<img src="../assets/images/logo.png" width="100" alt="Logo">
-			</div>
-		
-			<h1>L'astronomie</h1>
-		</header>
-
-		<nav>
-			<h2>Navigation</h2>
-
-			<div class="container">
-				<h3>Les planètes et le Soleil</h3>
-
-				<ul>
-					<li><a href="sun.html">Le soleil</a></li>
-					<li><a href="systeme_solaire.html">Le système solaire</a></li>
-				</ul>
-			</div>
-
-			<div class="container">
-				<h3>Les missions spatiales</h3>
-
-				<ul>
-					<li><a href="agences_spatiales.html">Les agences spatiales </a></li>
-					<li><a href="entreprises_prives.html">Les entreprises privés</a></li>
-				</ul>
-			</div>
-
-			<div class="container">
-				<h3>Les galaxies</h3>
-
-				<ul>
-					<li><a href="galaxies.html">Les galaxies</a></li>
-				</ul>
-			</div>
-            <div class="container">
-				<h3>En plus</h3>
-
-				<ul>
-					<li><a href="telescopes.html">Moyens d'observations</a></li>
-				</ul>
-			</div>
-		</nav>
-
-		<article>
-          <h1>Les agences spatiales</h1>
-		</article>
-	
-		</div>
-
-        <footer>
-            <p>Réalisé par Erwan Sagnardon et Thomas SAUVEUR &copy; 2026</p>
-            <p>Sources : <a href="https://fr.wikipedia.org/wiki/Astronomie">Wikipédia</a>, <a href="https://www.nasa.gov/">NASA</a>, <a href="https://www.esa.int/">ESA</a></p>
-        </footer>
-
-	</body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agences Spatiales | ESA Astronomie</title>
+    <link rel="stylesheet" href="../assets/css/styleserwan.css">
+    <link rel="icon" href="../assets/images/logo.png" type="image/png">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../assets/images/logo.png" alt="Logo ESA Astronomie">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="systeme_solaire.html">Systeme Solaire</a></li>
+                <li><a href="sun.html">Le Soleil</a></li>
+                <li><a href="galaxies.html">Galaxies</a></li>
+                <li><a href="exoplanets.html">Exoplanetes</a></li>
+                <li><a href="agences_spatiales.html" class="active">Agences Spatiales</a></li>
+                <li><a href="entreprises_prives.html">Entreprises Privees</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Les Agences Spatiales</h1>
+            <p>Les organisations gouvernementales explorant l espace</p>
+        </div>
+    </section>
+    <main class="content">
+        <section class="section">
+            <h2>Principales agences spatiales</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Agence</th>
+                        <th>Pays</th>
+                        <th>Fondation</th>
+                        <th>Missions notables</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>NASA</strong></td>
+                        <td>Etats-Unis</td>
+                        <td>1958</td>
+                        <td>Apollo, Voyager, Mars Rovers, Artemis</td>
+                    </tr>
+                    <tr>
+                        <td><strong>ESA</strong></td>
+                        <td>Europe</td>
+                        <td>1975</td>
+                        <td>Rosetta, Gaia, JWST (partenaire)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Roscosmos</strong></td>
+                        <td>Russie</td>
+                        <td>1992</td>
+                        <td>Mir, Soyouz, ISS (partenaire)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>CNSA</strong></td>
+                        <td>Chine</td>
+                        <td>1993</td>
+                        <td>Tiangong, Chang e, Zhurong</td>
+                    </tr>
+                    <tr>
+                        <td><strong>JAXA</strong></td>
+                        <td>Japon</td>
+                        <td>2003</td>
+                        <td>Hayabusa, Kibo (ISS)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>ISRO</strong></td>
+                        <td>Inde</td>
+                        <td>1969</td>
+                        <td>Chandrayaan, Mangalyaan</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>2026 ESA Astronomie - Erwan Sagnardon et Thomas SAUVEUR</p>
+            <p>Sources : <a href="https://fr.wikipedia.org/wiki/Astronomie">Wikipedia</a>, <a href="https://www.nasa.gov/">NASA</a>, <a href="https://www.esa.int/">ESA</a></p>
+        </div>
+    </footer>
+</body>
 </html>

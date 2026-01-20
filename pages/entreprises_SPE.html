@@ -1,101 +1,51 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fr">
-   <head>
-       <meta charset="utf-8">
-	   <link  href="../assets/css/styleserwan.css" rel="stylesheet">
-	   <title>Site Web statique : L'Astronomie</title>
-   </head>
-
-	<body>
-		<div id="page">
-
-		<header>
-        <!-- Logo cliquable : retourne vers la page d’accueil -->
-        <a href="../index.html">
-            <img src="../assets/images/logo.png" width="100" alt="logo" class="logo">
-        </a>
-			<h1>L'astronomie</h1>
-		</header>
-
-		<nav>
-			<h2>Liste entreprises</h2>
-
-			<div class="container">
-				<ul>
-					<li><a href="entreprises_CH.html">ENTREPRISES CHINOISES</a></li>
-					
-				</ul>
-			</div>
-
-			<div class="container">
-				
-
-				<ul>
-					
-					<li><a href="entreprises_UE.html">ENTREPRISES EUROPÉENNES</a></li>
-				</ul>
-			</div>
-
-			<div class="container">
-				
-
-				<ul>
-					<li><a href="entreprises_SPE.html">ENTREPRISES SPÉCIALISÉES</a></li>
-					
-				</ul>
-			</div>
-            <div class="container">
-				
-
-				<ul>
-					<li><a href="entreprises_STA_COM.html">ENTREPRISES DE SATELLITES & COMMUNICATIONS</a></li>
-				</ul>
-			</div>
-			<div class="container">
-				
-
-				<ul>
-					<li><a href="entreprise_US.html">ENTREPRISES SPATIALES AMÉRICAINES</a></li>
-				</ul>
-			</div>
-			<div class="container">
-				
-
-				<ul>
-					<li><a href="entreprises_prives.html">Retour au site</a></li>
-				</ul>
-			</div>
-		</nav>
-
-		 <article>
-        <h2>Les entreprise SPECIALISE</h2>
-        <p><strong>Description :</strong> ESO (European Southern Observatory) </p>
-<p>Fondateur : Organisation intergouvernementale européenne (1962)</p>
-<p>Activités : Conception et exploitation de télescopes astronomiques terrestres (VLT, ELT), observation de l’Univers 
-(étoiles, galaxies, exoplanètes),
- recherche astrophysique avancée.</p>
-<p>Chiffre d'affaires : Environ 160 millions d’euros par an (budget des États membres)</p>
-<p>Réalisations : Exploitation du Very Large Telescope (VLT) au Chili, construction de l’Extremely Large Telescope (ELT), 
-découvertes majeures sur les trous noirs et les exoplanètes.</p>
-<a href="https://www.eso.org/public/" target="_blank">Lien vers le site</a>
-<p><strong>Description :</strong>NASA – Division Astronomie </p>
-<p>Fondateur : Gouvernement des États-Unis (1958)</p>
-<p>Activités : Missions spatiales d’astronomie (Hubble, James Webb), observation de l’Univers depuis l’espace, recherche en astrophysique et cosmologie.</p>
-<p>Chiffre d'affaires : Budget total NASA ≈ 25 milliards de dollars (dont plusieurs milliards dédiés à l’astronomie)</p>
-<p>Réalisations : Télescope spatial Hubble, télescope James Webb, avancées majeures sur la formation des galaxies et des systèmes stellaires.</p>
-<a href="https://www.nasa.gov/" target="_blank">Lien vers le site</a>
-<p><strong>Description :</strong>ESA – Astronomie & Science spatiale </p>
-<p>Fondateur : Agence spatiale européenne (1975)</p>
-<p>Activités : Missions spatiales scientifiques (Gaia, Herschel, Euclid), cartographie de la Voie lactée, étude de l’Univers sombre.</p>
-<p>Chiffre d'affaires : Environ 7 milliards d’euros (budget global ESA)</p>
-<p>Réalisations :Mission Gaia (cartographie de plus d’un milliard d’étoiles), mission Euclid pour l’étude de l’énergie noire</p>
-<a href="https://www.esa.int/" target="_blank">Lien vers le site</a>
-    </article>
-		</div>
-        <footer>
-            <p>Réalisé par Erwan Sagnardon et Thomas SAUVEUR &copy; 2026</p>
-            <p>Sources : <a href="https://fr.wikipedia.org/wiki/Astronomie">Wikipédia</a>, <a href="https://www.nasa.gov/">NASA</a>, <a href="https://www.esa.int/">ESA</a></p>
-        </footer>
-
-	</body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entreprises Specialisees | ESA Astronomie</title>
+    <link rel="stylesheet" href="../assets/css/styleserwan.css">
+    <link rel="icon" href="../assets/images/logo.png" type="image/png">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="../index.html"><img src="../assets/images/logo.png" alt="Logo"></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="systeme_solaire.html">Systeme Solaire</a></li>
+                <li><a href="sun.html">Le Soleil</a></li>
+                <li><a href="galaxies.html">Galaxies</a></li>
+                <li><a href="exoplanets.html">Exoplanetes</a></li>
+                <li><a href="agences_spatiales.html">Agences Spatiales</a></li>
+                <li><a href="entreprises_prives.html" class="active">Entreprises Privees</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Entreprises Specialisees</h1>
+            <p>Niches et technologies spatiales innovantes</p>
+        </div>
+    </section>
+    <main class="content">
+        <section class="section">
+            <h2>Domaines de specialisation</h2>
+            <ul>
+                <li><strong>Planet Labs</strong> - Imagerie satellite quotidienne</li>
+                <li><strong>Spire Global</strong> - Donnees meteo et maritimes</li>
+                <li><strong>Astroscale</strong> - Nettoyage debris spatiaux</li>
+                <li><strong>Relativity Space</strong> - Impression 3D de fusees</li>
+                <li><strong>Astra</strong> - Lanceurs petits satellites</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>2026 ESA Astronomie - Erwan Sagnardon et Thomas SAUVEUR</p>
+        </div>
+    </footer>
+</body>
 </html>

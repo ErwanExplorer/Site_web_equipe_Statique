@@ -1,73 +1,141 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="fr">
-   <head>
-       <meta charset="utf-8">
-	   <link  href="../assets/css/styleserwan.css" rel="stylesheet">
-	   <title>Le Soleil - Site Web statique : L'Astronomie</title>
-   </head>
-
-	<body>
-		<div id="page">
-
-		<header>
-			
-			<div class="logo">
-				<img src="../assets/images/logo.png" width="100" alt="Logo">
-			</div>
-		
-			<h1>L'astronomie</h1>
-		</header>
-
-		<nav>
-			<h2>Navigation</h2>
-
-			<div class="container">
-				<h3>Les planètes et le Soleil</h3>
-
-				<ul>
-					<li><a href="sun.html">Le soleil</a></li>
-					<li><a href="systeme_solaire.html">Le système solaire</a></li>
-				</ul>
-			</div>
-
-			<div class="container">
-				<h3>Les missions spatiales</h3>
-
-				<ul>
-					<li><a href="agences_spatiales.html">Les agences spatiales </a></li>
-					<li><a href="entreprises_prives.html">Les entreprises privés</a></li>
-				</ul>
-			</div>
-
-			<div class="container">
-				<h3>Les galaxies</h3>
-
-				<ul>
-					<li><a href="galaxies.html">Les galaxies</a></li>
-				</ul>
-			</div>
-            <div class="container">
-				<h3>En plus</h3>
-
-				<ul>
-					<li><a href="galaxies.html">Moyens d'observations</a></li>
-						<li><a href="exoplanets.html">Les exoplanètes</a></li>
-				</ul>
-			</div>
-		</nav>
-
-		<article>
-          <h1>
-			Le système solaire
-		  </h1>
-		</article>
-	
-		</div>
-
-        <footer>
-            <p>Réalisé par Erwan Sagnardon et Thomas SAUVEUR &copy; 2026</p>
-            <p>Sources : <a href="https://fr.wikipedia.org/wiki/Astronomie">Wikipédia</a>, <a href="https://www.nasa.gov/">NASA</a>, <a href="https://www.esa.int/">ESA</a></p>
-        </footer>
-
-	</body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Systeme Solaire | ESA Astronomie</title>
+    <link rel="stylesheet" href="../assets/css/styleserwan.css">
+    <link rel="icon" href="../assets/images/logo.png" type="image/png">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../assets/images/logo.png" alt="Logo ESA Astronomie">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="systeme_solaire.html" class="active">Systeme Solaire</a></li>
+                <li><a href="sun.html">Le Soleil</a></li>
+                <li><a href="galaxies.html">Galaxies</a></li>
+                <li><a href="exoplanets.html">Exoplanetes</a></li>
+                <li><a href="agences_spatiales.html">Agences Spatiales</a></li>
+                <li><a href="entreprises_prives.html">Entreprises Privees</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Le Systeme Solaire</h1>
+            <p>Notre maison cosmique et ses huit planetes</p>
+        </div>
+    </section>
+    <main class="content">
+        <section class="section">
+            <h2>Presentation</h2>
+            <p><strong>Description :</strong> Le Systeme solaire est un ensemble astronomique compose du Soleil et de tous les objets qui gravitent autour de lui. Il comprend huit planetes, des planetes naines, des lunes, des asteroides, des cometes et d autres petits corps.</p>
+            <p><strong>Age :</strong> Environ 4,6 milliards d annees</p>
+            <p><strong>Localisation :</strong> Bras d Orion de la Voie lactee</p>
+        </section>
+        <section class="section">
+            <h2>Les 8 planetes</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Planete</th>
+                        <th>Type</th>
+                        <th>Distance du Soleil</th>
+                        <th>Periode orbitale</th>
+                        <th>Particularite</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mercure</td>
+                        <td>Tellurique</td>
+                        <td>58 millions km</td>
+                        <td>88 jours</td>
+                        <td>Plus petite planete</td>
+                    </tr>
+                    <tr>
+                        <td>Venus</td>
+                        <td>Tellurique</td>
+                        <td>108 millions km</td>
+                        <td>225 jours</td>
+                        <td>Planete la plus chaude (462 C)</td>
+                    </tr>
+                    <tr>
+                        <td>Terre</td>
+                        <td>Tellurique</td>
+                        <td>150 millions km</td>
+                        <td>365 jours</td>
+                        <td>Seule planete abritant la vie</td>
+                    </tr>
+                    <tr>
+                        <td>Mars</td>
+                        <td>Tellurique</td>
+                        <td>228 millions km</td>
+                        <td>687 jours</td>
+                        <td>Planete rouge, cible d exploration</td>
+                    </tr>
+                    <tr>
+                        <td>Jupiter</td>
+                        <td>Gazeuse</td>
+                        <td>778 millions km</td>
+                        <td>12 ans</td>
+                        <td>Plus grande planete</td>
+                    </tr>
+                    <tr>
+                        <td>Saturne</td>
+                        <td>Gazeuse</td>
+                        <td>1,4 milliard km</td>
+                        <td>29 ans</td>
+                        <td>Celebres anneaux</td>
+                    </tr>
+                    <tr>
+                        <td>Uranus</td>
+                        <td>Glacee</td>
+                        <td>2,9 milliards km</td>
+                        <td>84 ans</td>
+                        <td>Axe incline a 98 degres</td>
+                    </tr>
+                    <tr>
+                        <td>Neptune</td>
+                        <td>Glacee</td>
+                        <td>4,5 milliards km</td>
+                        <td>165 ans</td>
+                        <td>Vents les plus rapides</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="section">
+            <h2>Autres composants</h2>
+            <ul>
+                <li><strong>Planetes naines :</strong> Pluton, Eris, Ceres, Makemake, Haumea</li>
+                <li><strong>Ceinture d asteroides :</strong> Entre Mars et Jupiter</li>
+                <li><strong>Ceinture de Kuiper :</strong> Au-dela de Neptune</li>
+                <li><strong>Nuage d Oort :</strong> Aux confins du systeme</li>
+            </ul>
+        </section>
+        <section class="section">
+            <h2>Missions d exploration</h2>
+            <ul>
+                <li><strong>Voyager 1 et 2 :</strong> Lancees en 1977</li>
+                <li><strong>Cassini-Huygens :</strong> Exploration de Saturne (2004-2017)</li>
+                <li><strong>New Horizons :</strong> Survol de Pluton en 2015</li>
+                <li><strong>Juno :</strong> En orbite autour de Jupiter depuis 2016</li>
+            </ul>
+            <p><strong>Source :</strong> <a href="https://fr.wikipedia.org/wiki/Syst%C3%A8me_solaire" target="_blank">Wikipedia</a></p>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>2026 ESA Astronomie - Erwan Sagnardon et Thomas SAUVEUR</p>
+            <p>Sources : <a href="https://fr.wikipedia.org/wiki/Astronomie">Wikipedia</a>, <a href="https://www.nasa.gov/">NASA</a>, <a href="https://www.esa.int/">ESA</a></p>
+        </div>
+    </footer>
+</body>
 </html>
