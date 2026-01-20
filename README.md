@@ -4,7 +4,7 @@
 
 ## 📋 Description du Projet
 
-Ce projet est un site web statique développé dans le cadre d'un TP, consacré à l'astronomie et à l'exploration spatiale. Il présente des informations sur le système solaire, les missions spatiales, les galaxies et les moyens d'observation astronomique.
+Ce projet est un site web statique développé dans le cadre d'un TP, consacré à l'astronomie et à l'exploration spatiale. Il présente des informations sur le système solaire, les missions spatiales, les galaxies, les exoplanètes et les moyens d'observation astronomique.
 
 ## 👥 Équipe de Développement
 
@@ -26,8 +26,14 @@ Le site a pour objectif de présenter :
 
 ### Pages Principales
 - **`index.html`** - Page d'accueil avec présentation générale
+
+### Pages dans le dossier `/pages/`
+- **`sun.html`** - Page dédiée au Soleil
 - **`systeme_solaire.html`** - Informations sur notre système solaire
-- **`ESA_sun.html`** - Page dédiée au Soleil
+- **`agences_spatiales.html`** - Les agences spatiales mondiales
+- **`entreprise_privee.html`** - Les entreprises privées du secteur spatial
+- **`galaxies.html`** - Les galaxies de l'univers
+- **`exoplanets.html`** - Les exoplanètes
 
 ### Navigation Thématique
 
@@ -41,10 +47,10 @@ Le site a pour objectif de présenter :
 
 #### 🌌 Les Galaxies
 - Les Galaxies
-- Les Télescopes
 
 #### 🔭 En Plus
 - Moyens d'Observations
+- Les Exoplanètes
 
 ## 🎨 Technologies Utilisées
 
@@ -61,17 +67,22 @@ Le site a pour objectif de présenter :
 ```
 📂 Site Web Statique - Astronomie/
 ├── 📄 index.html                    # Page d'accueil
-├── 📄 systeme_solaire.html         # Page système solaire  
-├── 📄 ESA_sun.html                 # Page sur le Soleil
-├── 📄 README.md                    # Ce fichier
+├── 📄 README.md                     # Ce fichier
+├── 📄 ESA_css.css                   # Feuille de style ESA
 ├── 📂 assets/
 │   ├── 📂 css/
-│   │   ├── styles.css              # Styles de base
-│   │   └── styleserwan.css         # Thème principal
+│   │   ├── styles.css               # Styles de base
+│   │   └── styleserwan.css          # Thème principal
 │   └── 📂 images/
-│       ├── astronomie.jpg          # Image d'illustration
-│       └── logo.png               # Logo du site
-└── 📄 ESA_Site_Web_Statique_Astronomie.zip
+│       ├── astronomie.jpg           # Image d'illustration
+│       └── logo.png                 # Logo du site
+└── 📂 pages/
+    ├── 📄 agences_spatiales.html    # Page agences spatiales
+    ├── 📄 entreprise_privee.html    # Page entreprises privées
+    ├── 📄 exoplanets.html           # Page exoplanètes
+    ├── 📄 galaxies.html             # Page galaxies
+    ├── 📄 sun.html                  # Page sur le Soleil
+    └── 📄 systeme_solaire.html      # Page système solaire
 ```
 
 ## 🎨 Caractéristiques du Design
@@ -131,4 +142,4 @@ Pour toute question concernant ce projet, vous pouvez contacter l'équipe de dé
 
 ---
 
-*Dernière mise à jour : Octobre 2025*
+*Dernière mise à jour : Novembre 2025*

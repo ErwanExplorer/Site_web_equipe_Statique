@@ -1,6 +1,6 @@
 body
 {
-   background-color:#ffffff; /* Définit la couleur d’arrière-plan de la page (bleu foncé) */
+   background-color:#34495e; /* Définit la couleur d’arrière-plan de la page (bleu foncé) */
    color:#ffffff; /* Définit la couleur du texte en blanc */
    font-family:"Trebuchet MS",Verdana,Geneva,Arial,Helvetica,sans-serif; /* Définit la police du texte (avec plusieurs polices de secours) */
    font-size:small; /* Définit la taille du texte en "petit" */
@@ -12,6 +12,7 @@ body
 {
    color:#000000; /* Définit la couleur du texte en noir dans la zone #page */
    background-color:#ffffff; /* Définit la couleur de fond de #page en blanc */
+   border:3px solid #000000; /* Ajoute une bordure noire pleine de 3px autour de #page */
    min-height:55em; /* Définit une hauteur minimale de 55em pour #page */
    height:55em; /* Définit une hauteur fixe de 55em pour #page */
 }
@@ -26,7 +27,7 @@ header
 	margin: 2em 3% 1% 3%; /* Ajoute une marge extérieure : 2em en haut, 3% à droite, 1% en bas et 3% à gauche */
 	padding: 0.05em 0 0.05em 0; /* Ajoute un espacement intérieur (padding) : 0.5em en haut et 0.05em à gauche */
 	font-size: 200%; /* Agrandit la taille du texte à 200% de la taille de base */
-	background-color: #cfcfcf; /* Définit la couleur de fond de l’en-tête en jaune */
+	background-color: #ffd000; /* Définit la couleur de fond de l’en-tête en jaune */
 	border-radius: 25px; /* Arrondit les coins de l’en-tête avec un rayon de 25px */
 }
 
@@ -62,7 +63,7 @@ article {
 }	
 
 article h2 {
-	border-color: #6fc2e9;  /* définit la couleur de la bordure en orange */
+	border-color: #f09000;  /* définit la couleur de la bordure en orange */
 	border-style: solid;  /* définit le style de la bordure en trait plein */
 	border-width: 0 0 3px 0;  /* ajoute uniquement une bordure en bas (3px d’épaisseur), aucune sur les autres côtés */
 	font-size: medium;  /* définit une taille de texte moyenne pour le titre h2 */
@@ -70,25 +71,7 @@ article h2 {
 	margin: 0;  /* supprime les marges extérieures du h2 */
 	padding-left: 0em;  /* enlève tout espace à gauche du texte (pas de retrait) */
 	text-transform: uppercase;  /* met le texte du titre en majuscules automatiquement */
-	color: #000000;  /* couleur du texte du h2 en orange */
-}
-
-article button{
-    background-color: #306090; /* Couleur de fond du bouton (bleu foncé) */
-    color: #ffffff; /* Couleur du texte en blanc */
-    border: none; /* Supprime la bordure par défaut du bouton */
-    padding: 10px 20px; /* Ajoute un espacement intérieur (padding) de 10px en haut/bas et 20px à gauche/droite */
-    text-align: center; /* Centre le texte à l’intérieur du bouton */
-    text-decoration: none; /* Supprime la décoration de texte (soulignement) */
-    display: inline-block; /* Définit le bouton comme un élément en ligne avec des propriétés de bloc */
-    font-size: 16px; /* Définit la taille du texte à 16 pixels */
-    margin-top: 10px; /* Ajoute une marge extérieure de 10px au-dessus du bouton */
-    cursor: pointer; /* Change le curseur en pointeur lorsqu’on survole le bouton */
-    border-radius: 5px; /* Arrondit légèrement les coins du bouton avec un rayon de 5px */
-}
-
-article button:hover {
-    background-color: #205070; /* Change la couleur de fond du bouton au survol (bleu plus foncé) */
+	color: #f09000;  /* couleur du texte du h2 en orange */
 }
 
 article img {
@@ -100,7 +83,7 @@ article img {
 
 
 nav h3{
-	border-color: #6fc2e9;
+	border-color: #f09000;
 	border-style: solid;
 	border-width: 0 0 3px 0;
 	font-size: medium;
@@ -126,13 +109,13 @@ footer {
     clear: both; /* Assure que le footer ne flotte pas à côté d’autres éléments flottants */
     text-align: center; /* Centre le texte à l’intérieur du footer */
     padding: 1em 0; /* Ajoute un espacement intérieur (padding) de 1em en haut et en bas */
-    color: #000000; /* Définit la couleur du texte en blanc */
+    background-color: #306090; /* Définit la couleur de fond du footer (bleu foncé) */
+    color: #ffffff; /* Définit la couleur du texte en blanc */
     font-size: small; /* Définit une taille de texte petite pour le footer */
     margin-top: 1em; /* Ajoute une marge extérieure de 1em au-dessus du footer */
-    border-top: 1px solid #000000; /* Ajoute une bordure noire pleine de 1px en haut du footer */
     }
 
 footer a {
-    color: #000000; /* Définit la couleur des liens en blanc */ 
+    color: #ffffff; /* Définit la couleur des liens en blanc */ 
     text-decoration: underline; /* Souligne les liens pour les différencier du texte normal */
 }
